@@ -12,7 +12,7 @@ export class BoardComponent implements OnInit {
 
 	constructor() { }
 
-	ngOnInit(): void {
+	ngOnInit(){
 		this.newGame();
 	}
 	newGame() {
